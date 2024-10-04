@@ -101,7 +101,7 @@ list_of_locations = {
 #Initialize data frame
 #Read data--------------------------------------------
 # Lista de archivos que quieres unir
-files = ['sismos_Dash/sismo_0.csv', 'sismos_Dash/sismo_1.csv', 'sismos_Dash/sismo_2.csv', 'sismos_Dash/sismo_3.csv', 'sismos_Dash/sismo_4.csv']
+files = ['BD_sismos/sismo_0.csv', 'BD_sismos/sismo_1.csv', 'BD_sismos/sismo_2.csv', 'BD_sismos/sismo_3.csv', 'BD_sismos/sismo_4.csv']
 
 # Leer cada archivo CSV y unirlos
 df_list = [pd.read_csv(file) for file in files]
