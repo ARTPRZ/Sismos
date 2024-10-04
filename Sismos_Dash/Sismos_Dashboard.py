@@ -100,7 +100,16 @@ list_of_locations = {
 
 #Initialize data frame
 #Read data--------------------------------------------
-sns = pd.read_csv('Sismos_Dash/SSNMX.csv',skiprows = 4)
+# Lista de archivos que quieres unir
+files = ['sismos_Dash/sismo_0.csv', 'sismos_Dash/sismo_1.csv', 'sismos_Dash/sismo_2.csv', 'sismos_Dash/sismo_3.csv', 'sismos_Dash/sismo_4.csv']
+
+# Leer cada archivo CSV y unirlos
+df_list = [pd.read_csv(file) for file in files]
+
+# Concatenar todos los DataFrames
+df_combined = pd.concat(df_list, ignore_index=True)
+
+sns=df_combined
 
 
 sns2 = sns[sns.Magnitud.notna()]
