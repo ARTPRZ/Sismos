@@ -7,7 +7,7 @@ from plotly.graph_objs import *
 import dash_bootstrap_components as dbc
 import datetime as dt
 
-#Este es un testo para ver si se actualizo!!! 
+#Este es un testo para ver si se actualizo!!!   
 
 #https://dash.gallery/ddk-oil-and-gas-demo/
 #https://dash.gallery/dash-uber-rides-demo/
@@ -66,7 +66,7 @@ app.layout = html.Div(
 
                         html.Div(style={"height": "5px"}),
                         html.P(id="total-sismos"),
-                        html.P('Actualizado al: 1/10/2024'),
+                        html.P('Actualizado al: VAMOS A VER AHORA'),
                         dcc.Markdown(
                             """
                             Source: [Sismológico Nacional](http://www2.ssn.unam.mx:8080/catalogo/) 
