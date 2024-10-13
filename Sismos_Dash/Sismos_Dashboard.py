@@ -7,6 +7,8 @@ from plotly.graph_objs import *
 import dash_bootstrap_components as dbc
 import datetime as dt
 
+#Este es un testo para ver si se actualizo!!! 
+
 #https://dash.gallery/ddk-oil-and-gas-demo/
 #https://dash.gallery/dash-uber-rides-demo/
 #https://dash-example-index.herokuapp.com/
